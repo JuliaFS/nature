@@ -2,7 +2,7 @@
     text-align: center;
     height: 550px;
     color: #4257a2; 
-    background-image: url('./../assets/images/chavdar-panorama.jpg'); 
+    background-image: url('https://raw.githubusercontent.com/JuliaFS/nature/main/nature/src/assets/images/chavdar-panorama.jpg'); 
     background-repeat: no-repeat;
     background-size: cover;
 }
