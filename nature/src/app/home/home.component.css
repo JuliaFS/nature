@@ -1,0 +1,42 @@
+.home-container{
+    text-align: center;
+    height: 550px;
+    color: #4257a2; 
+    background-image: url('./../assets/images/chavdar-panorama.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-container::before{
+        content: ""; /* Create a pseudo-element */
+        position: absolute; /* Position the pseudo-element absolutely */
+        top: 0;
+        left: 0;
+        opacity: 0.7; /* Apply opacity to the pseudo-element */
+      }
+
+.home-container h2{
+    font-weight: bold;
+    display: inline-block;
+    padding: 3% 0 2% 0;
+    margin-bottom: 4%;
+    border-bottom: 3px dotted #4257a2;
+    z-index: 1;
+}
+.top-container{
+    border: 3px solid #4257a2;
+    padding: 6%;
+    background-color: aliceblue;
+}
+.top-firms{
+    display: flex;
+    gap: 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-name{
+    border-bottom: 2px dotted #4257a2;
+    display: inline-block;
+    font-weight: bold;
+}
