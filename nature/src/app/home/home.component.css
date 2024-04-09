@@ -1,8 +1,8 @@
 .home-container{
     text-align: center;
-    height: 550px;
     color: #4257a2; 
-    background-image: url('https://raw.githubusercontent.com/JuliaFS/nature/main/nature/src/assets/images/chavdar-panorama.jpg'); 
+    height: 100vw;
+    background-image: url('https://raw.githubusercontent.com/JuliaFS/nature/main/nature/src/assets/images/gledka-dospat.jpg'); 
     background-repeat: no-repeat;
     background-size: cover;
 }
